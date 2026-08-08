@@ -58,7 +58,7 @@ weak. Instead, it produces a confidence score and supporting evidence.
 
 # 🏗️ System Architecture
 
-![System Architecture](C:\Users\naras\OneDrive\Pictures\Screenshots)
+![PATA System Architecture](system-architecture.png)
 
 The system consists of three major layers:
 
@@ -97,7 +97,7 @@ Responsible for:
 
 # 🤖 AI Workflow
 
-![AI Workflow](C:\Users\naras\OneDrive\Pictures\Screenshots)
+![PATA AI Workflow](ai-workflow.png)
 
 The AI workflow follows:
 
