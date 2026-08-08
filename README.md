@@ -121,29 +121,67 @@ Verified Location
 
 ---
 
-# 🧠 AI Components
+Expected Output:
 
-## 1. Address Parser
 
-The parser converts free-form address text into structured fields.
+         AI ADDRESS PARSING & GEOCODING SYSTEM
 
-Example:
 
-Input:
+📍 ORIGINAL ADDRESS
+----------------------------------------------------------------------
 
-"Near Ganesh Temple
+Near Ganesh Temple
 Opp SBI ATM
 Labbipet
 Vijayawada
-520010"
+520010
 
-Output:
 
-```json
-{
-  "landmark": "Ganesh Temple",
-  "reference": "Opp SBI ATM",
-  "locality": "Labbipet",
-  "city": "Vijayawada",
-  "pincode": "520010"
-}
+🌐 TRANSLATED ADDRESS
+----------------------------------------------------------------------
+Near Ganesh Temple
+Opp SBI ATM
+Labbipet
+Vijayawada
+520010
+
+🧠 PARSED COMPONENTS
+----------------------------------------------------------------------
+House Number : Not Found
+Street       : Not Found
+Landmark     : Ganesh Temple
+Reference    : Opp SBI ATM
+Locality     : Labbipet
+City         : Vijayawada
+District     : Not Found
+State        : Not Found
+Pincode      : 520010
+
+📌 GEOLOCATION
+----------------------------------------------------------------------
+Latitude     : 16.5054215
+Longitude    : 80.6513258
+
+🗺 GOOGLE MAPS
+----------------------------------------------------------------------
+https://www.google.com/maps?q=16.5054215,80.6513258
+
+✅ CONFIDENCE SCORE
+----------------------------------------------------------------------
+70%
+
+🔍 WHY THIS RESULT?
+----------------------------------------------------------------------
+✔ Landmark verified via OpenStreetMap
+✔ Valid pincode
+
+📄 EVIDENCE
+----------------------------------------------------------------------
+✔ Matched Landmark : Ganesh Temple
+✔ Pincode 520010 verified
+✔ District : NTR
+✔ State : ANDHRA PRADESH
+
+
+ADDRESS SUCCESSFULLY VERIFIED
+
