@@ -1,0 +1,6 @@
+groq
+pandas
+requests
+rapidfuzz
+deep-translator
+python-dotenv
